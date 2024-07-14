@@ -1,0 +1,51 @@
+/* div[data-testid='stVerticalBlock']:has(div#main-container) {
+    background: #f3ecf0; 
+    background: -webkit-linear-gradient(to right, #e6dbe1, #493240); 
+    background: linear-gradient(to right, #e6dbe1, #493240); 
+    width: 1000; 
+}
+
+div[data-testid='stVerticalBlock']:has(div#head-container):not(:has(div#inner-container)) {
+    padding-bottom: 25px;
+    padding-top: 20px;
+    border-bottom: 3px solid #1b1919;
+    border-bottom-style:groove;
+} */
+
+div[data-testid='stVerticalBlock']:has(div#main-container) {
+    background: #f3ecf0; 
+    background: -webkit-linear-gradient(to right, #e6dbe1, #493240); 
+    background: linear-gradient(to right, #c27aa1, #493240); 
+    width: 1000; 
+}
+
+div[data-testid='stVerticalBlock']:has(div#head-container):not(:has(div#main-container)) {
+    background: #c04593; 
+    background: -webkit-linear-gradient(to right, #e6dbe1, #493240); 
+    background: linear-gradient(to right, #c27aa1, #493240);
+    padding-bottom: 25px;
+    padding-top: 20px;
+    border-bottom: 5px solid #1b1919;
+    border-bottom-style:groove;
+}
+
+div[data-testid='stVerticalBlock']:has(div#inner-container):not(:has(div#head-container)) {
+    text-align: center;
+}
+
+div[data-testid=stImage]{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div[data-testid=stButton]{
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.measures{
+    color: #1b1919;
+    text-align: center;
+}
